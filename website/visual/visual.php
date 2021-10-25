@@ -1,0 +1,54 @@
+<?php
+
+?>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div {
+        width: 100%;
+        max-width: 150px;
+        display: inline;
+    }
+
+    .campos {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    .subcampos {
+        padding: 2px;
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+    table,
+    td,
+    td {
+        border: 0px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .produtotable,
+    td,
+    td {
+        border: 0px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    select {
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        display: inline;
+    }
+</style>

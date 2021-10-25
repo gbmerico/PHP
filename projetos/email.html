@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+
+    <body>
+        <section class="content">
+            <div class="send_email">
+                <center>
+                    <h3>Precisa de uma conta?</h3>
+                </center>             
+                <form class="form" method="POST" action="./email.php">
+                    <input class="field" name="name" placeholder="Nome" type="text">
+                    <input class="field" name="email" placeholder="E-mail" type="email">
+                    <textarea class="field" name="message" placeholder="Digite seu propósito aqui."></textarea>
+                    <input class="field" value="Enviar" type="submit">
+                </form>
+            </div>
+        </section>
+    </body>
+
+</html>
+
+<style>
+    body{font-family: Arial, Helvetica, sans-serif;}
+
+    /* <section class="content"> */
+    .content{display:flex; 
+                justify-content: center;}
+
+    /* <div class="send_email"> */
+    .send_email{width: 100%; 
+                    max-width: 350px;}
+
+    /* <form class="form" method="POST" action="./email.php"> */
+    .form{display: flex; 
+            flex-direction: column;}
+
+   /* <input class="field" ... */
+   .field{padding: 10px; 
+            margin-bottom: 15px; 
+                border: 1px solid #ddd; 
+                    border-radius: 5px; 
+                        font-family: Arial, Helvetica, sans-serif; 
+                            font-size: 16px;}
+
+   textarea{height: 150px;}
+</style>
